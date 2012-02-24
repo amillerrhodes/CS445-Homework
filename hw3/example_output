@@ -1,0 +1,69 @@
+File Opening Benchmarks
+	fopen 	 20 microseconds.
+	open 	  7 microseconds.
+
+File Read/Write Benchmarks
+
+Buffer Size is 16
+			fwrite	fread	write	read
+	Fully Buffered	12us	 1us	 5us	 1us
+	Line Buffered	 2us	 0us	 2us	 1us
+	Not Buffered	 2us	 1us	 1us	 0us
+
+Buffer Size is 32
+			fwrite	fread	write	read
+	Fully Buffered	 2us	 0us	 1us	 1us
+	Line Buffered	 2us	 0us	 1us	 1us
+	Not Buffered	 2us	 0us	 1us	 1us
+
+Buffer Size is 64
+			fwrite	fread	write	read
+	Fully Buffered	 2us	 1us	 1us	 0us
+	Line Buffered	 2us	 1us	 1us	 1us
+	Not Buffered	 2us	 0us	 1us	 1us
+
+Buffer Size is 128
+			fwrite	fread	write	read
+	Fully Buffered	 1us	 2us	 2us	 0us
+	Line Buffered	 0us	 2us	 2us	 1us
+	Not Buffered	 1us	 0us	 2us	 0us
+
+Buffer Size is 512
+			fwrite	fread	write	read
+	Fully Buffered	 0us	 2us	 2us	 0us
+	Line Buffered	 0us	 2us	 2us	 1us
+	Not Buffered	 1us	 0us	 2us	 1us
+
+Buffer Size is 1024
+			fwrite	fread	write	read
+	Fully Buffered	 1us	 2us	 3us	 0us
+	Line Buffered	 0us	 2us	 2us	 0us
+	Not Buffered	 1us	 0us	 2us	 0us
+
+Buffer Size is 2048
+			fwrite	fread	write	read
+	Fully Buffered	 1us	 2us	 2us	 0us
+	Line Buffered	 0us	 2us	 2us	 0us
+	Not Buffered	 1us	 0us	 2us	 0us
+
+Buffer Size is 4096
+			fwrite	fread	write	read
+	Fully Buffered	 0us	 3us	 1us	 0us
+	Line Buffered	 1us	 2us	 2us	 0us
+	Not Buffered	 2us	 1us	 1us	 0us
+
+Buffer Size is 8192
+			fwrite	fread	write	read
+	Fully Buffered	 0us	 2us	 2us	 0us
+	Line Buffered	 0us	 2us	 2us	 0us
+	Not Buffered	 1us	 0us	 2us	 0us
+
+Buffer Size is 16384
+			fwrite	fread	write	read
+	Fully Buffered	 0us	 2us	 1us	 1us
+	Line Buffered	 0us	 2us	 1us	 0us
+	Not Buffered	 2us	 1us	 1us	 1us
+
+File Closing Benchmarks
+	close 	  1 microseconds.
+	fclose 	  2 microseconds.
