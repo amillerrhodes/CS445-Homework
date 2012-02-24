@@ -28,9 +28,8 @@ main(void) {
     /* open benchmark */
     gettimeofday(&tv, NULL); 
     t = tv.tv_sec * 1000000 + tv.tv_usec;
-    test_fd = open ("testfile2", O_RDWR | O_CREAT | O_TRUNC, 0644);
+    test_fd = open("testfile2", O_RDWR | O_CREAT | O_TRUNC, 0644);
     gettimeofday(&tv, NULL); 
-    printf("%d\n", test_fd);
     printf("\topen \t %2d microseconds.\n", (tv.tv_sec * 1000000 + tv.tv_usec)-t);
 
 
@@ -96,5 +95,5 @@ main(void) {
     gettimeofday(&tv, NULL); 
     printf("\tfclose \t %2d microseconds.\n", (tv.tv_sec * 1000000 + tv.tv_usec)-t);
 
-    return 0;
+    return EXIT_SUCCESS;
 }
