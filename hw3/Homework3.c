@@ -5,38 +5,39 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include <string.h>
 
 int
 main(void) {
     struct timeval tv;
-    FILE* test_fptr;
+    FILE* test_fptr = NULL;
     int test_fd;
     int i, t;
     int bufsizes[10] = {16, 32, 64, 128, 512, 1024, 2048, 4096, 8192, 16384};
-    char* buf;
+    char* buf = malloc(sizeof(char)*bufsizes[1]);
+    int modes[3] = {_IOFBF, _IOLBF, _IONBF};
 
     printf("File Opening Benchmarks\n");
     /* fopen benchmark */
     gettimeofday(&tv, NULL); 
     t = tv.tv_sec * 1000000 + tv.tv_usec;
-    test_fptr = fopen("testfile", "r+");
+    test_fptr = fopen("testfile1", "a+");
     gettimeofday(&tv, NULL); 
     printf("\tfopen \t %2d microseconds.\n", (tv.tv_sec * 1000000 + tv.tv_usec)-t);
 
     /* open benchmark */
     gettimeofday(&tv, NULL); 
     t = tv.tv_sec * 1000000 + tv.tv_usec;
-    test_fd = open("testfile", O_RDWR);
+    test_fd = open ("testfile2", O_RDWR | O_CREAT | O_TRUNC, 0644);
     gettimeofday(&tv, NULL); 
+    printf("%d\n", test_fd);
     printf("\topen \t %2d microseconds.\n", (tv.tv_sec * 1000000 + tv.tv_usec)-t);
-
-    int modes[3] = {_IOFBF, _IOLBF, _IONBF};
 
 
     printf("\nFile Read/Write Benchmarks\n");
     for (int i=0; i<10; i++) {
-        buf = malloc(sizeof(char)*bufsizes[i]);
-        for (int k=0; k<bufsizes[i]; k++) buf[k] = "0";
+        buf = realloc(buf, sizeof(char) * bufsizes[i]);
+        for (int k=0; k<bufsizes[i]; k++) buf[k] = 'a';
         printf("\nBuffer Size is %d\n", bufsizes[i]);
 
         printf("\t\t\tfwrite\tfread\twrite\tread\n", bufsizes[i]);
@@ -77,8 +78,8 @@ main(void) {
             gettimeofday(&tv, NULL); 
             printf("%2dus\n", (tv.tv_sec * 1000000 + tv.tv_usec)-t);
         }
-        free(buf);
     }
+    free(buf);
 
     printf("\nFile Closing Benchmarks\n");
     /* close benchmark */
