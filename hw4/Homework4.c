@@ -38,7 +38,8 @@ int main(void) {
         n_children_running++;
     }
 
-    while (fgets(line, LINE_LENGTH, stdin) != NULL) {
+    //while (fgets(line, LINE_LENGTH, stdin) != NULL) {
+    while (!feof(ifp)) { // Probably should just do infinite loop and catch sigint to clean up.
         command_executed = 0;
         while (!command_executed) {
             if (pid1 == 0) {
