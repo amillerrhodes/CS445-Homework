@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
 #define LINE_LENGTH 80
 
 int process_command(void);
+void sigusr1_handler(int sig);
+void sigusr2_handler(int sig);
+void sigalrm_handler(int sig);
 
 int main(void) {
     pid_t pid = getpid(); /* Parent ID */
@@ -15,7 +21,7 @@ int main(void) {
     pid_t exit_pid;
 
     char line[LINE_LENGTH];
-    FILE* ifp = fopen("in.list", "r");
+    FILE* ifp = fopen("input", "r");
 
 
     int n = 0;
@@ -32,32 +38,37 @@ int main(void) {
         n_children_running++;
     }
 
-    char* args[2] = {"sleep", "30"};
-    while (fgets(line, LINE_LENGTH, ifp) != NULL) {
+    while (fgets(line, LINE_LENGTH, stdin) != NULL) {
         command_executed = 0;
         while (!command_executed) {
             if (pid1 == 0) {
-                printf("In child 1 :: \n");
+                signal(SIGALRM, sigalrm_handler);
+                printf("In child 1\n");
                 fflush(stdout);
-                //execvp(args[0], args);
                 system(line);
                 command_executed = 1;
                 //exit(1);
             } else if (pid2 == 0) {
-                args[1] = "20";
-                printf("In child 2 :: \n");
+                signal(SIGALRM, sigalrm_handler);
+                printf("In child 2\n");
                 fflush(stdout);
-                //execvp(args[0], args);
                 system(line);
                 command_executed = 1;
                 //exit(1);
             } else {
                 printf("In parent :: \n");
+
+                /* Set up signal handlers */
+                signal(SIGUSR1, sigusr1_handler); // child 1 is free
+                signal(SIGUSR2, sigusr2_handler); // child 2 is free
+
                 if (n < 2) {
                     exit_pid = wait(&status);
                     printf("%d exited\n", exit_pid);
                     n++;
                 } else {
+                    kill(pid1, SIGTERM);
+                    kill(pid2, SIGTERM);
                     exit(0);
                 }
             }
@@ -67,4 +78,17 @@ int main(void) {
     return 0;
 }
 
+
+void
+sigusr1_handler(int sig) {
+}
+
+void
+sigusr2_handler(int sig) {
+}
+
+void
+sigalrm_handler(int sig) {
+    system(line);
+}
 
