@@ -38,20 +38,24 @@ int main(void) {
         n_children_running++;
     }
 
+    int i = 0;
     //while (fgets(line, LINE_LENGTH, stdin) != NULL) {
-    while (!feof(ifp)) { // Probably should just do infinite loop and catch sigint to clean up.
+    //while (!feof(ifp)) { // Probably should just do infinite loop and catch sigint to clean up.
+    for (;;i++) {
         command_executed = 0;
+        fgets(line, LINE_LENGTH, ifp);
+        printf("Executing line %d\n", i);
         while (!command_executed) {
             if (pid1 == 0) {
                 signal(SIGALRM, sigalrm_handler);
-                printf("In child 1\n");
+                //printf("In child 1\n");
                 fflush(stdout);
                 system(line);
                 command_executed = 1;
                 //exit(1);
             } else if (pid2 == 0) {
                 signal(SIGALRM, sigalrm_handler);
-                printf("In child 2\n");
+                //printf("In child 2\n");
                 fflush(stdout);
                 system(line);
                 command_executed = 1;
@@ -62,6 +66,10 @@ int main(void) {
                 /* Set up signal handlers */
                 signal(SIGUSR1, sigusr1_handler); // child 1 is free
                 signal(SIGUSR2, sigusr2_handler); // child 2 is free
+                if (feof(ifp)) {
+                    kill(pid1, SIGTERM);
+                    kill(pid2, SIGTERM);
+                }
 
                 if (n < 2) {
                     exit_pid = wait(&status);
@@ -90,6 +98,5 @@ sigusr2_handler(int sig) {
 
 void
 sigalrm_handler(int sig) {
-    system(line);
 }
 
