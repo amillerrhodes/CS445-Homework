@@ -27,7 +27,7 @@ main(void) {
         
         pid = fork();
 
-        if (pid == 0) {
+        if (pid == 0) { // Child Code
             if (stat(buffer, &buf) == -1) {
                 perror("stat error");
                 exit(-1);
@@ -45,7 +45,7 @@ main(void) {
                 exit(0);
             }
 
-        } else {
+        } else { // Parent Code
             signal(SIGUSR1, sigusr1_handler);
             signal(SIGUSR2, sigusr2_handler);
             signal(SIGALRM, sigalrm_handler);
