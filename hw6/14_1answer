@@ -1,0 +1,1 @@
+The process requesting the write lock when the file is already read locked is starved until the read locks are released. Furthermore, any additional attempts to read lock the file will bypass the blocked read lock on the file. In my example, the children all get read locks at first, leaving the parent starving until the children exit (which forces them to release their locks).

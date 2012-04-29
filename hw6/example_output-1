@@ -1,0 +1,40 @@
+CHILD 8244 (1335664947): Read Locking file
+CHILD 8243 (1335664947): Read Locking file
+CHILD 8244 (1335664947): Read Locked file
+CHILD 8245 (1335664947): Read Locking file
+CHILD 8243 (1335664947): Read Locked file
+CHILD 8245 (1335664947): Read Locked file
+CHILD 8246 (1335664947): Read Locking file
+CHILD 8246 (1335664947): Read Locked file
+CHILD 8248 (1335664947): Read Locking file
+CHILD 8248 (1335664947): Read Locked file
+CHILD 8247 (1335664947): Read Locking file
+CHILD 8247 (1335664947): Read Locked file
+CHILD 8250 (1335664947): Read Locking file
+CHILD 8252 (1335664947): Read Locking file
+CHILD 8250 (1335664947): Read Locked file
+CHILD 8251 (1335664947): Read Locking file
+CHILD 8252 (1335664947): Read Locked file
+CHILD 8251 (1335664947): Read Locked file
+CHILD 8249 (1335664947): Read Locking file
+CHILD 8249 (1335664947): Read Locked file
+PARENT 8242 (1335664948): Attempt to Write Lock file
+CHILD 8250 (1335664957): Unlocked Read Lock on file
+CHILD 8251 (1335664957): Unlocked Read Lock on file
+CHILD 8250 (1335664957): Read Locked file again
+CHILD 8252 (1335664957): Unlocked Read Lock on file
+CHILD 8249 (1335664957): Unlocked Read Lock on file
+CHILD 8252 (1335664957): Read Locked file again
+CHILD 8249 (1335664957): Read Locked file again
+CHILD 8251 (1335664957): Read Locked file again
+CHILD 8244 (1335664962): Exiting
+CHILD 8243 (1335664962): Exiting
+CHILD 8245 (1335664962): Exiting
+CHILD 8246 (1335664962): Exiting
+CHILD 8248 (1335664962): Exiting
+CHILD 8247 (1335664962): Exiting
+CHILD 8252 (1335664962): Exiting
+CHILD 8250 (1335664962): Exiting
+CHILD 8251 (1335664962): Exiting
+CHILD 8249 (1335664962): Exiting
+PARENT 8242 (1335664962): Write Locked file
