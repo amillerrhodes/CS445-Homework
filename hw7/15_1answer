@@ -1,0 +1,1 @@
+When we remove the call to close the write end of the pipe for the parent, we still leave the standard input open for the child process. When it's closed by the parent, then the pager knows that there is no more input, and will exit appropriately.
