@@ -1,0 +1,6 @@
+When the signal handler is removed, we can still tell that SIGPIPE is killing the parent process because of the following error message that results:
+
+write error to pipe: Broken pipe
+child closed pipe: Broken pipe
+
+SIGPIPE is emitted when a process tries to write to a broken pipe. Therefore, when the error message tells us the pipe is broken, we can deduce that SIGPIPE was emitted to kill the parent process.
