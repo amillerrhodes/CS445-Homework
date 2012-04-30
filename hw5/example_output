@@ -1,0 +1,508 @@
+Main Process counting number of lines
+Main Process spawning threads
+Thread -1503402240 Locking mutex
+Thread -1503402240 read sleep 1 from file
+Unlocking mutex
+Thread -1503402240 starting to execute sleep 1
+Thread -1511794944 Locking mutex
+Thread -1511794944 read sleep 1 from file
+Unlocking mutex
+Thread -1511794944 starting to execute sleep 1
+Thread -1495009536 Locking mutex
+Thread -1495009536 read sleep 1 from file
+Unlocking mutex
+Thread -1495009536 starting to execute sleep 1
+Thread -1486616832 Locking mutex
+Thread -1486616832 read sleep 1 from file
+Unlocking mutex
+Thread -1486616832 starting to execute sleep 1
+Thread -1520187648 Locking mutex
+Thread -1520187648 read sleep 1 from file
+Unlocking mutex
+Thread -1520187648 starting to execute sleep 1
+Thread -1528580352 Locking mutex
+Thread -1528580352 read sleep 1 from file
+Unlocking mutex
+Thread -1528580352 starting to execute sleep 1
+Thread -1610615040 Locking mutex
+Thread -1610615040 read sleep 1 from file
+Unlocking mutex
+Thread -1610615040 starting to execute sleep 1
+Thread -1619007744 Locking mutex
+Thread -1619007744 read sleep 1 from file
+Unlocking mutex
+Thread -1619007744 starting to execute sleep 1
+Thread -1627400448 Locking mutex
+Thread -1627400448 read sleep 1 from file
+Unlocking mutex
+Thread -1627400448 starting to execute sleep 1
+Main Process waiting for threads to finish
+Thread -1635793152 Locking mutex
+Thread -1635793152 read sleep 1 from file
+Unlocking mutex
+Thread -1635793152 starting to execute sleep 1
+Thread -1644185856 Locking mutex
+Thread -1644185856 read sleep 1 from file
+Unlocking mutex
+Thread -1644185856 starting to execute sleep 1
+Thread 1107048192 Locking mutex
+Thread 1107048192 read sleep 1 from file
+Unlocking mutex
+Thread 1107048192 starting to execute sleep 1
+Thread 1081870080 Locking mutex
+Thread 1081870080 read sleep 1 from file
+Unlocking mutex
+Thread 1081870080 starting to execute sleep 1
+Thread 2147481344 Locking mutex
+Thread 2147481344 read sleep 1 from file
+Unlocking mutex
+Thread 2147481344 starting to execute sleep 1
+Thread -1652578560 Locking mutex
+Thread -1652578560 read sleep 1 from file
+Unlocking mutex
+Thread -1652578560 starting to execute sleep 1
+Thread 1853867776 Locking mutex
+Thread 1853867776 read sleep 1 from file
+Unlocking mutex
+Thread 1853867776 starting to execute sleep 1
+Thread 1526683392 Locking mutex
+Thread 1526683392 read sleep 1 from file
+Unlocking mutex
+Thread 1526683392 starting to execute sleep 1
+Thread 1585432320 Locking mutex
+Thread 1585432320 read sleep 1 from file
+Unlocking mutex
+Thread 1585432320 starting to execute sleep 1
+Thread 1249724160 Locking mutex
+Thread 1249724160 read sleep 1 from file
+Unlocking mutex
+Thread 1249724160 starting to execute sleep 1
+Thread 1300080384 Locking mutex
+Thread 1300080384 read sleep 1 from file
+Unlocking mutex
+Thread 1300080384 starting to execute sleep 1
+Thread 1392400128 Locking mutex
+Thread 1392400128 read sleep 1 from file
+Unlocking mutex
+Thread 1392400128 starting to execute sleep 1
+Thread 1283294976 Locking mutex
+Thread 1283294976 read sleep 1 from file
+Unlocking mutex
+Thread 1283294976 starting to execute sleep 1
+Thread 1342043904 Locking mutex
+Thread 1342043904 read sleep 1 from file
+Unlocking mutex
+Thread 1342043904 starting to execute sleep 1
+Thread 1132226304 Locking mutex
+Thread 1132226304 read sleep 1 from file
+Unlocking mutex
+Thread 1132226304 starting to execute sleep 1
+Thread 1274902272 Locking mutex
+Thread 1274902272 read sleep 1 from file
+Unlocking mutex
+Thread 1274902272 starting to execute sleep 1
+Thread 1962907392 Locking mutex
+Thread 1962907392 read sleep 1 from file
+Unlocking mutex
+Thread 1962907392 starting to execute sleep 1
+Thread 1476327168 Locking mutex
+Thread 1476327168 read sleep 1 from file
+Unlocking mutex
+Thread 1476327168 starting to execute sleep 1
+Thread 1157404416 Locking mutex
+Thread 1157404416 read sleep 1 from file
+Unlocking mutex
+Thread 1157404416 starting to execute sleep 1
+Thread 1979692800 Locking mutex
+Thread 1979692800 read sleep 1 from file
+Unlocking mutex
+Thread 1979692800 starting to execute sleep 1
+Thread 1350436608 Locking mutex
+Thread 1350436608 read sleep 1 from file
+Unlocking mutex
+Thread 1350436608 starting to execute sleep 1
+Thread 1593825024 Locking mutex
+Thread 1593825024 read sleep 1 from file
+Unlocking mutex
+Thread 1593825024 starting to execute sleep 1
+Thread 1845475072 Locking mutex
+Thread 1845475072 read sleep 1 from file
+Unlocking mutex
+Thread 1845475072 starting to execute sleep 1
+Thread 1451149056 Locking mutex
+Thread 1451149056 read sleep 1 from file
+Unlocking mutex
+Thread 1451149056 starting to execute sleep 1
+Thread 1543468800 Locking mutex
+Thread 1543468800 read sleep 1 from file
+Unlocking mutex
+Thread 1543468800 starting to execute sleep 1
+Thread 1400792832 Locking mutex
+Thread 1400792832 read sleep 1 from file
+Unlocking mutex
+Thread 1400792832 starting to execute sleep 1
+Thread 1551861504 Locking mutex
+Thread 1551861504 read sleep 1 from file
+Unlocking mutex
+Thread 1551861504 starting to execute sleep 1
+Thread 1358829312 Locking mutex
+Thread 1358829312 read sleep 1 from file
+Unlocking mutex
+Thread 1358829312 starting to execute sleep 1
+Thread 1484719872 Locking mutex
+Thread 1484719872 read sleep 1 from file
+Unlocking mutex
+Thread 1484719872 starting to execute sleep 1
+Thread 2097125120 Locking mutex
+Thread 2097125120 read sleep 1 from file
+Unlocking mutex
+Thread 2097125120 starting to execute sleep 1
+Thread 1828689664 Locking mutex
+Thread 1828689664 read sleep 1 from file
+Unlocking mutex
+Thread 1828689664 starting to execute sleep 1
+Thread 1333651200 Locking mutex
+Thread 1333651200 read sleep 1 from file
+Unlocking mutex
+Thread 1333651200 starting to execute sleep 1
+Thread 1140619008 Locking mutex
+Thread 1140619008 read sleep 1 from file
+Unlocking mutex
+Thread 1140619008 starting to execute sleep 1
+Thread 1207760640 Locking mutex
+Thread 1207760640 read sleep 1 from file
+Unlocking mutex
+Thread 1207760640 starting to execute sleep 1
+Thread 1988085504 Locking mutex
+Thread 1988085504 read sleep 1 from file
+Unlocking mutex
+Thread 1988085504 starting to execute sleep 1
+Thread 1165797120 Locking mutex
+Thread 1165797120 read sleep 1 from file
+Unlocking mutex
+Thread 1165797120 starting to execute sleep 1
+Thread 1090262784 Locking mutex
+Thread 1090262784 read sleep 1 from file
+Unlocking mutex
+Thread 1090262784 starting to execute sleep 1
+Thread 2113910528 Locking mutex
+Thread 2113910528 read sleep 1 from file
+Unlocking mutex
+Thread 2113910528 starting to execute sleep 1
+Thread 2122303232 Locking mutex
+Thread 2122303232 read sleep 1 from file
+Unlocking mutex
+Thread 2122303232 starting to execute sleep 1
+Thread 1291687680 Locking mutex
+Thread 1291687680 read sleep 1 from file
+Unlocking mutex
+Thread 1291687680 starting to execute sleep 1
+Thread 1501505280 Locking mutex
+Thread 1501505280 read sleep 1 from file
+Unlocking mutex
+Thread 1501505280 starting to execute sleep 1
+Thread 1996478208 Locking mutex
+Thread 1996478208 read sleep 1 from file
+Unlocking mutex
+Thread 1996478208 starting to execute sleep 1
+Thread 1232938752 Locking mutex
+Thread 1232938752 read sleep 1 from file
+Unlocking mutex
+Thread 1232938752 starting to execute sleep 1
+Thread 1442756352 Locking mutex
+Thread 1442756352 read sleep 1 from file
+Unlocking mutex
+Thread 1442756352 starting to execute sleep 1
+Thread 1384007424 Locking mutex
+Thread 1384007424 read sleep 1 from file
+Unlocking mutex
+Thread 1384007424 starting to execute sleep 1
+Thread 2004870912 Locking mutex
+Thread 2004870912 read sleep 1 from file
+Unlocking mutex
+Thread 2004870912 starting to execute sleep 1
+Thread 1123833600 Locking mutex
+Thread 1123833600 read sleep 1 from file
+Unlocking mutex
+Thread 1123833600 starting to execute sleep 1
+Thread 1065084672 Locking mutex
+Thread 1065084672 read sleep 1 from file
+Unlocking mutex
+Thread 1065084672 starting to execute sleep 1
+Thread 1174189824 Locking mutex
+Thread 1174189824 read sleep 1 from file
+Unlocking mutex
+Thread 1174189824 starting to execute sleep 1
+Thread 1056691968 Locking mutex
+Thread 1056691968 read sleep 1 from file
+Unlocking mutex
+Thread 1056691968 starting to execute sleep 1
+Thread 1971300096 Locking mutex
+Thread 1971300096 read sleep 1 from file
+Unlocking mutex
+Thread 1971300096 starting to execute sleep 1
+Thread 1560254208 Locking mutex
+Thread 1560254208 read sleep 1 from file
+Unlocking mutex
+Thread 1560254208 starting to execute sleep 1
+Thread 1535076096 Locking mutex
+Thread 1535076096 read sleep 1 from file
+Unlocking mutex
+Thread 1535076096 starting to execute sleep 1
+Thread 1577039616 Locking mutex
+Thread 1577039616 read sleep 1 from file
+Unlocking mutex
+Thread 1577039616 starting to execute sleep 1
+Thread 1610610432 Locking mutex
+Thread 1610610432 read sleep 1 from file
+Unlocking mutex
+Thread 1610610432 starting to execute sleep 1
+Thread 1602217728 Locking mutex
+Thread 1602217728 read sleep 1 from file
+Unlocking mutex
+Thread 1602217728 starting to execute sleep 1
+Thread 2139088640 Locking mutex
+Thread 2139088640 read sleep 1 from file
+Unlocking mutex
+Thread 2139088640 starting to execute sleep 1
+Thread 1518290688 Locking mutex
+Thread 1518290688 read sleep 1 from file
+Unlocking mutex
+Thread 1518290688 starting to execute sleep 1
+Thread 1115440896 Locking mutex
+Thread 1115440896 read sleep 1 from file
+Unlocking mutex
+Thread 1115440896 starting to execute sleep 1
+Thread 1870653184 Locking mutex
+Thread 1870653184 read sleep 1 from file
+Unlocking mutex
+Thread 1870653184 starting to execute sleep 1
+Thread 1098655488 Locking mutex
+Thread 1098655488 read sleep 1 from file
+Unlocking mutex
+Thread 1098655488 starting to execute sleep 1
+Thread 1266509568 Locking mutex
+Thread 1266509568 read sleep 1 from file
+Unlocking mutex
+Thread 1266509568 starting to execute sleep 1
+Thread 1325258496 Locking mutex
+Thread 1325258496 read sleep 1 from file
+Unlocking mutex
+Thread 1325258496 starting to execute sleep 1
+Thread 1493112576 Locking mutex
+Thread 1493112576 read sleep 1 from file
+Unlocking mutex
+Thread 1493112576 starting to execute sleep 1
+Thread 1467934464 Locking mutex
+Thread 1467934464 read sleep 1 from file
+Unlocking mutex
+Thread 1467934464 starting to execute sleep 1
+Thread 1375614720 Locking mutex
+Thread 1375614720 read sleep 1 from file
+Unlocking mutex
+Thread 1375614720 starting to execute sleep 1
+Thread 1241331456 Locking mutex
+Thread 1241331456 read sleep 1 from file
+Unlocking mutex
+Thread 1241331456 starting to execute sleep 1
+Thread 1837082368 Locking mutex
+Thread 1837082368 read sleep 1 from file
+Unlocking mutex
+Thread 1837082368 starting to execute sleep 1
+Thread 1224546048 Locking mutex
+Thread 1224546048 read sleep 1 from file
+Unlocking mutex
+Thread 1224546048 starting to execute sleep 1
+Thread 2013263616 Locking mutex
+Thread 2013263616 read sleep 1 from file
+Unlocking mutex
+Thread 2013263616 starting to execute sleep 1
+Thread 1509897984 Locking mutex
+Thread 1509897984 read sleep 1 from file
+Unlocking mutex
+Thread 1509897984 starting to execute sleep 1
+Thread 1073477376 Locking mutex
+Thread 1073477376 read sleep 1 from file
+Unlocking mutex
+Thread 1073477376 starting to execute sleep 1
+Thread 1409185536 Locking mutex
+Thread 1409185536 read sleep 1 from file
+Unlocking mutex
+Thread 1409185536 starting to execute sleep 1
+Thread 1879045888 Locking mutex
+Thread 1879045888 read sleep 1 from file
+Unlocking mutex
+Thread 1879045888 starting to execute sleep 1
+Thread 1367222016 Locking mutex
+Thread 1367222016 read sleep 1 from file
+Unlocking mutex
+Thread 1367222016 starting to execute sleep 1
+Thread 1459541760 Locking mutex
+Thread 1459541760 read sleep 1 from file
+Unlocking mutex
+Thread 1459541760 starting to execute sleep 1
+Thread 1862260480 Locking mutex
+Thread 1862260480 read sleep 1 from file
+Unlocking mutex
+Thread 1862260480 starting to execute sleep 1
+Thread 1216153344 Locking mutex
+Thread 1216153344 read sleep 1 from file
+Unlocking mutex
+Thread 1216153344 starting to execute sleep 1
+Thread 2105517824 Locking mutex
+Thread 2105517824 read sleep 1 from file
+Unlocking mutex
+Thread 2105517824 starting to execute sleep 1
+Thread 1425970944 Locking mutex
+Thread 1425970944 read sleep 1 from file
+Unlocking mutex
+Thread 1425970944 starting to execute sleep 1
+Thread 1190975232 Locking mutex
+Thread 1190975232 read sleep 1 from file
+Unlocking mutex
+Thread 1190975232 starting to execute sleep 1
+Thread 1568646912 Locking mutex
+Thread 1568646912 read sleep 1 from file
+Unlocking mutex
+Thread 1568646912 starting to execute sleep 1
+Thread 2130695936 Locking mutex
+Thread 2130695936 read sleep 1 from file
+Unlocking mutex
+Thread 2130695936 starting to execute sleep 1
+Thread 1417578240 Locking mutex
+Thread 1417578240 read sleep 1 from file
+Unlocking mutex
+Thread 1417578240 starting to execute sleep 1
+Thread 1316865792 Locking mutex
+Thread 1316865792 read sleep 1 from file
+Unlocking mutex
+Thread 1316865792 starting to execute sleep 1
+Thread 1199367936 Locking mutex
+Thread 1199367936 read sleep 1 from file
+Unlocking mutex
+Thread 1199367936 starting to execute sleep 1
+Thread 1258116864 Locking mutex
+Thread 1258116864 read sleep 1 from file
+Unlocking mutex
+Thread 1258116864 starting to execute sleep 1
+Thread 1308473088 Locking mutex
+Thread 1308473088 read sleep 1 from file
+Unlocking mutex
+Thread 1308473088 starting to execute sleep 1
+Thread 1434363648 Locking mutex
+Thread 1434363648 read sleep 1 from file
+Unlocking mutex
+Thread 1434363648 starting to execute sleep 1
+Thread 1149011712 Locking mutex
+Thread 1149011712 read sleep 1 from file
+Unlocking mutex
+Thread 1149011712 starting to execute sleep 1
+Thread -1660971264 Locking mutex
+Thread -1660971264 read sleep 1 from file
+Unlocking mutex
+Thread -1660971264 starting to execute sleep 1
+Thread 1182582528 Locking mutex
+Thread 1182582528 read sleep 1 from file
+Unlocking mutex
+Thread 1182582528 starting to execute sleep 1
+Thread -1486616832 finished
+Thread -1511794944 finished
+Thread -1520187648 finished
+Thread -1528580352 finished
+Thread -1610615040 finished
+Thread -1619007744 finished
+Thread -1503402240 finished
+Thread -1495009536 finished
+Thread -1627400448 finished
+Thread 1107048192 finished
+Thread -1635793152 finished
+Thread 1081870080 finished
+Thread -1644185856 finished
+Thread 1526683392 finished
+Thread 1853867776 finished
+Thread 2147481344 finished
+Thread 1585432320 finished
+Thread 1283294976 finished
+Thread -1652578560 finished
+Thread 1392400128 finished
+Thread 1342043904 finished
+Thread 1845475072 finished
+Thread 1300080384 finished
+Thread 1132226304 finished
+Thread 1451149056 finished
+Thread 1157404416 finished
+Thread 1962907392 finished
+Thread 1593825024 finished
+Thread 1274902272 finished
+Thread 1165797120 finished
+Thread 1979692800 finished
+Thread 1350436608 finished
+Thread 1543468800 finished
+Thread 1090262784 finished
+Thread 1249724160 finished
+Thread 1476327168 finished
+Thread 1551861504 finished
+Thread 1484719872 finished
+Thread 1400792832 finished
+Thread 1333651200 finished
+Thread 1828689664 finished
+Thread 2122303232 finished
+Thread 1988085504 finished
+Thread 1358829312 finished
+Thread 1140619008 finished
+Thread 1207760640 finished
+Thread 1996478208 finished
+Thread 2097125120 finished
+Thread 2113910528 finished
+Thread 1442756352 finished
+Thread 1384007424 finished
+Thread 1501505280 finished
+Thread 1291687680 finished
+Thread 2004870912 finished
+Thread 1232938752 finished
+Thread 1123833600 finished
+Thread 1577039616 finished
+Thread 1056691968 finished
+Thread 1971300096 finished
+Thread 1610610432 finished
+Thread 1535076096 finished
+Thread 1560254208 finished
+Thread 1115440896 finished
+Thread 1602217728 finished
+Thread 1518290688 finished
+Thread 1174189824 finished
+Thread 1870653184 finished
+Thread 2139088640 finished
+Thread 2013263616 finished
+Thread 1266509568 finished
+Thread 1065084672 finished
+Thread 1325258496 finished
+Thread 1224546048 finished
+Thread 1375614720 finished
+Thread 1509897984 finished
+Thread 1837082368 finished
+Thread 1467934464 finished
+Thread 1409185536 finished
+Thread 1098655488 finished
+Thread 1879045888 finished
+Thread 1241331456 finished
+Thread 1862260480 finished
+Thread 1073477376 finished
+Thread 1493112576 finished
+Thread 1216153344 finished
+Thread 1367222016 finished
+Thread 2105517824 finished
+Thread 1316865792 finished
+Thread 1425970944 finished
+Thread 1199367936 finished
+Thread 1434363648 finished
+Thread 2130695936 finished
+Thread 1417578240 finished
+Thread 1459541760 finished
+Thread 1190975232 finished
+Thread 1182582528 finished
+Thread 1568646912 finished
+Thread -1660971264 finished
+Thread 1258116864 finished
+Thread 1308473088 finished
+Thread 1149011712 finished

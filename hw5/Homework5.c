@@ -53,7 +53,6 @@ int
 main(void)
 {
 	int	err, i = 0, j;
-    pthread_t* threadids = malloc(sizeof(pthread_t)*100);
     char* buffer = malloc(sizeof(char)*LINE_LENGTH);
     fd = open("input", O_RDONLY);
 
@@ -68,6 +67,7 @@ main(void)
     lseek(fd, 0, SEEK_SET);
 
     free(buffer);
+    pthread_t* threadids = malloc(sizeof(pthread_t)*(--i));
 
     printf("Main Process spawning threads\n");
     for(j=0; j<i; j++) {
@@ -78,7 +78,8 @@ main(void)
     }
 
     printf("Main Process waiting for threads to finish\n");
-    while (--i > 0) {
+    i--;
+    while (i > 0) {
         pthread_join(*(threadids+i), NULL);
         i--;
     }
