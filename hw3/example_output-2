@@ -1,0 +1,53 @@
+
+root (0)
+    root (0)
+    bin (1)
+    daemon (2)
+    sys (3)
+    adm (4)
+    disk (6)
+    wheel (10)
+    log (19)
+
+bin (1)
+    bin (1)
+    daemon (2)
+    sys (3)
+
+daemon (2)
+    daemon (2)
+    bin (1)
+    adm (4)
+    lp (7)
+
+mail (8)
+    mail (12)
+
+ftp (14)
+    ftp (11)
+
+http (33)
+    http (33)
+
+nobody (99)
+    nobody (99)
+
+dbus (81)
+    dbus (81)
+
+avahi (84)
+    avahi (84)
+
+usbmux (140)
+    usbmux (140)
+
+milleraj (1000)
+    users (100)
+    lp (7)
+    games (50)
+    video (91)
+    audio (92)
+    optical (93)
+    storage (95)
+    scanner (96)
+    power (98)
